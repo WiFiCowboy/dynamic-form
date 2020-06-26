@@ -1,0 +1,96 @@
+body {
+  width: 960px;
+  margin: 45px auto;
+  background-color: #f9ebe8;
+}
+form {
+  width: 330px;
+  border-top: 1px dotted #d9d9d9;
+  margin: 10px 180px;
+}
+button {
+  width: 246px;
+  height: 40px;
+  color: #4c4c4c;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+input {
+  width: 280px;
+  height: 40px;
+  padding: 5px;
+  margin: 20px 0 10px;
+  border-radius: 5px;
+  border: 4px solid #acbfa5;
+}
+input[type="submit"] {
+  width: 100px;
+  background-color: #067ab4;
+  border-radius: 5px;
+  border: 2px solid blue;
+  color: #fff;
+}
+
+input:hover {
+  cursor: pointer;
+  background-color: #264de4;
+}
+
+textarea {
+  width: 280px;
+  height: 70px;
+  padding: 5px;
+  margin: 20px 0 10px;
+  border-radius: 5px;
+  border: 4px solid #acbfa5;
+}
+.four p {
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+}
+.first p {
+  padding: 15px;
+  color: #fff;
+}
+.two {
+  background-color: #fff;
+  width: 290px;
+  float: left;
+  height: 600px;
+}
+.main_content {
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+}
+.two h4 {
+  color: #4c4c4c;
+  text-align: center;
+}
+.three {
+  text-align: center;
+  width: 660px;
+  border-left: 1px solid #d0d0d0;
+  float: left;
+  background-color: #fff;
+}
+.four,
+.first {
+  width: 960px;
+  clear: both;
+  background-color: #067ab4;
+  height: 55px;
+}
+
+.fa-js-square {
+  color: #f0db4f;
+}
+
+.fa-html5 {
+  color: #f16529;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
