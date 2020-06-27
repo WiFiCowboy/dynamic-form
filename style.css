@@ -21,7 +21,7 @@ input {
   padding: 5px;
   margin: 20px 0 10px;
   border-radius: 5px;
-  border: 4px solid #acbfa5;
+  border: 4px solid #067ab4;
 }
 input[type="submit"] {
   width: 100px;
@@ -31,19 +31,12 @@ input[type="submit"] {
   color: #fff;
 }
 
+button:hover,
 input:hover {
   cursor: pointer;
-  background-color: #264de4;
+  background-color: #c2c2c2;
 }
 
-textarea {
-  width: 280px;
-  height: 70px;
-  padding: 5px;
-  margin: 20px 0 10px;
-  border-radius: 5px;
-  border: 4px solid #acbfa5;
-}
 .four p {
   text-align: center;
   color: #fff;
@@ -81,6 +74,17 @@ textarea {
   clear: both;
   background-color: #067ab4;
   height: 55px;
+  text-shadow: -1px 1px 1px #000;
+}
+
+.fa-file-alt {
+  color: rgb(255, 255, 255);
+  padding: 0 10px;
+}
+
+svg {
+  padding-left: 10px;
+  color: #023650;
 }
 
 .fa-js-square {
